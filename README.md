@@ -31,3 +31,30 @@ Visit the live application to generate strong passwords instantly.
 ```bash
 git clone https://github.com/aryan-8485/password-generator.git
 cd password-generator
+
+Usage
+1. Set Password Length: Use the range slider to choose password length (6-100 characters)
+2. Include Numbers: Check the "Numbers" checkbox to include digits (0-9)
+3. Include Special Characters: Check the "Characters" checkbox to include special symbols (!@#$%^&*()_+)
+4. Generate Password: Password auto-generates based on your selections
+5. Copy to Clipboard: Click the "Copy" button to copy the generated password
+
+Project Structure
+src/
+├── App.jsx           # Main application component with password generation logic
+├── App.css           # Application styles
+├── main.jsx          # React entry point
+├── index.css         # Global styles
+└── assets/           # Static assets
+
+Technologies Used
+React - UI library
+Vite - Build tool and development server
+Tailwind CSS - Utility-first CSS framework
+ESLint - Code quality tool
+
+Browser Support
+Works on all modern browsers that support:
+ES6+ JavaScript
+CSS Grid and Flexbox
+Clipboard API
